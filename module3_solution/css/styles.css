@@ -1,0 +1,116 @@
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+
+
+/** Header **/
+.navbar-brand {
+	font-size: 35px;
+	font-weight: 600;
+	height: 74px;
+	text-decoration: none;
+}
+div.navbar-header {
+	padding: 19px 0px 0px 0px;
+	background-color: #BDBDBD;
+}	
+nav > div.container-fluid {
+	background-color: #BDBDBD;
+}
+
+div.navbar-brand > a {
+	padding-left: 3vw;
+	text-decoration: none;
+}
+a:hover, a:visited, a:link {
+	color: #000;
+}
+#collapsable-nav {
+	width: 100%;
+	padding: 0px;
+}
+.navbar-default .navbar-nav > li> a {
+	color: black;
+}
+.navbar-default .navbar-collapse {
+	border-bottom: 0px;
+	font-size: 20px;
+}
+ul li:nth-child(2) {
+	border-top: .5px solid black;
+	border-bottom: .5px solid black;
+	color: #000;
+}
+ul li:nth-child(3) {
+	border-bottom: .5px solid black;
+}
+#nav-list {
+	margin: 0px;
+	background-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+button.navbar-toggle, button.navbar-toggle.collapsed {
+	margin-top: 10px;
+	margin-right: 6%;
+	padding: 4px 5px 5px 5px;
+	border: 1.5px solid black;
+	height: 56px;
+	width: 60px;
+	position: relative;
+	top: -10px;
+	overflow: hidden;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+	border-color: white;
+}
+.navbar-default .navbar-toggle.collapsed:focus, .navbar-default .navbar-toggle.collapsed:hover {
+	background-color: transparent;
+	border-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle.collapsed .icon-bar {
+	background-color: black;
+	margin: 5px;
+	padding: 3px;
+	width: 40px;
+}
+.navbar-default .navbar-toggle span:nth-child(3), .navbar-default .navbar-toggle.collapsed span:nth-child(3) {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+button.navbar-toggle:focus .icon-bar, button.navbar-toggle:hover .icon-bar {
+	background-color: white;
+}
+/** End Header **/
+
+
+
+/** Main Content **/
+h2, h3 {
+	font-weight: 500;
+	color: #000;
+}
+h2 {
+	margin: 20px 0px 35px 0px;
+	font-size: 35px;
+}
+h3 {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+}
+section {
+	margin: 10px 4% 30px 4%;
+	font-size: 16px;
+	background-color: #BDBDBD;
+	border: 1.5px solid black;
+	padding: 15px;
+	color: #000;
+}
+p {
+	font-size: 15px;
+}
+/** End Main Content **/
